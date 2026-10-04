@@ -13,6 +13,6 @@ app.use("/api/auth", authRoutes)
 
 
 app.listen(PORT, () => {
-    console.log("index page");
+    console.log("hi, index page");
     console.log(`Server is runnning on port ${PORT}`);
 });
